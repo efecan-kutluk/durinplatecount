@@ -21,6 +21,7 @@ body {
     border-style: solid;
     border-image: linear-gradient(135deg, rgba(225,202,170,1), rgba(109,105,81,1), rgba(166,150,114,1)) 1, 100%;
     border-radius: 2rem 2rem 0px 2rem;
+    background-position: center;
     padding: 1.2rem;
     background-color: rgba(102,81,36,0.6);
     color: #f0eaca;
@@ -30,7 +31,6 @@ body {
 }
 
 .txt-protest {
-    font-size: 2rem;
     color: white;
 }
 
@@ -39,11 +39,19 @@ body {
 	  width: 5vw;
 	  height: 5vw;
     }
+
+    .txt-protest {
+	  font-size: 1vw;
+    }
 }
 
 @media screen and (orientation: landscape) {
     #plate {
 	  width: 5vh;
 	  height: 5vh;
+    }
+
+    .txt-protest {
+	  font-size: 1vh;
     }
 }
