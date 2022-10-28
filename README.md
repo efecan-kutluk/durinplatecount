@@ -1,0 +1,3 @@
+# DURIN PLATE COUNT
+
+This is a basic web app that I've made for a friend, which counts the days past since a certain order date. Someone should give the man his palte already...
