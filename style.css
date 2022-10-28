@@ -18,24 +18,24 @@ body {
     background-image: url("ironfoot.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .txt-speechbox {
-    border-width: 2px;
-    border-style: solid;
-    border-image: linear-gradient(135deg, rgba(225,202,170,1), rgba(109,105,81,1), rgba(166,150,114,1)) 1, 100%;
+    font-family: Skranji-Bold;
+    border: double 1rem transparent;
+    background-image: linear-gradient(rgba(102,81,36,0.6), rgba(102,81,36,0.6)), linear-gradient(135deg, rgba(225,202,170,1), rgba(109,105,81,1), rgba(166,150,114,1));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
     border-radius: 2rem 2rem 0px 2rem;
-    background-position: center;
     padding: 1.2rem;
-    background-color: rgba(102,81,36,0.6);
-    color: #f0eaca;
     position: absolute;
     left: 37%;
     top: 15%;
 }
 
 .txt-protest {
-    color: white;
+    color: #f7eede;
 }
 
 @media screen and (orientation: portrait) {
@@ -45,6 +45,7 @@ body {
     }
 
     .txt-speechbox {
+	  border: double 1vw transparent;
 	  left: 20%;
 	  top: 12%;
     }
@@ -54,6 +55,11 @@ body {
     }
 }
 
+@font-face {
+    font-family: Skranji-Bold;
+    src: url(fonts/Skranji-Bold.ttf);
+}
+
 @media screen and (orientation: landscape) {
     #plate {
 	  width: 5vh;
@@ -61,7 +67,8 @@ body {
     }
 
     .txt-speechbox {
-	  left: 37%;
+	  border: double 1vh transparent; 
+	  left: 25%;
 	  top: 15%;
     }
 
