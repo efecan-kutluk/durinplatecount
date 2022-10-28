@@ -22,7 +22,7 @@ body {
 }
 
 .txt-speechbox {
-    font-family: Skranji-Bold;
+    font-family: Skranji-Regular;
     border: double 1rem transparent;
     background-image: linear-gradient(rgba(102,81,36,0.6), rgba(102,81,36,0.6)), linear-gradient(135deg, rgba(225,202,170,1), rgba(109,105,81,1), rgba(166,150,114,1));
     background-origin: border-box;
@@ -58,6 +58,11 @@ body {
 @font-face {
     font-family: Skranji-Bold;
     src: url(fonts/Skranji-Bold.ttf);
+}
+
+@font-face {
+    font-family: Skranji-Regular;
+    src: url(fonts/Skranji-Regular.ttf);
 }
 
 @media screen and (orientation: landscape) {
